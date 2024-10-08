@@ -64,5 +64,5 @@ test('entering player and pass IGame', async () => {
 
 
     /* ------------------------------------------- Assert --------------------------------------------------------*/
-    // await expect(addCandidatePage.$.successMessage).toBeVisible({ timeout: 10000 })
+
 });
