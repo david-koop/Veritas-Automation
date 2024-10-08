@@ -23,8 +23,8 @@ export default defineConfig({
   use: {
     headless: false,
     // baseURL: 'https://10.0.2.102',
-    baseURL: 'https://34.165.52.158',
-    // baseURL: 'https://ama.am-test.com',
+    // baseURL: 'https://34.165.52.158',
+    baseURL: 'https://ama.am-test.com',
     // baseURL: 'https://amproxy.ravtech.co.il',
     ignoreHTTPSErrors: true,
     trace: 'on',

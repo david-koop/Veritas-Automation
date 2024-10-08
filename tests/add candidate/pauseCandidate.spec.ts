@@ -10,10 +10,11 @@ let page: Page;
 let context;
 const organizationName = '00 QA AUTOMATION'
 const positionName = 'AutomationsDavid1'
+let id = generateRandomNumbers() + ' AUTO'
 
 
 
-test.describe.serial('Add candidate', () => {
+test.describe.serial('Pause candidate', () => {
   test.beforeAll(async ({ browser }) => {
 
     browser = await chromium.launch({ slowMo: 40 });
@@ -26,7 +27,7 @@ test.describe.serial('Add candidate', () => {
 
 
 
-  test('add new candidate', async () => {
+  test('Mark the first pause option', async () => {
     const addCandidatePage = new AddCandidatePage(page)
     const orgNavbarPage = new OrgNavbarPage(page)
     const allCandidatesPage = new AllCandidatePage(page)
@@ -35,7 +36,6 @@ test.describe.serial('Add candidate', () => {
 
     //Adding ID and verification that it is unique
     let idAvailable = false
-    let id = generateRandomNumbers() + ' AUTO'
 
     while (!idAvailable) {
       idAvailable = await addCandidatePage.fillAndCheckId(id)
@@ -47,6 +47,7 @@ test.describe.serial('Add candidate', () => {
 
     await addCandidatePage.addPosition(positionName)
     await addCandidatePage.fillCandidateInfo('david', 'automation', 'male')
+    await addCandidatePage.markTheFirstCheckboxPauseOption()
     await addCandidatePage.save()
     /* ------------------------------------------- Assert --------------------------------------------------------*/
     await expect(addCandidatePage.$.successMessage).toBeVisible({ timeout: 10000 })
@@ -56,10 +57,9 @@ test.describe.serial('Add candidate', () => {
 
 
   /* ------------------------------------------- Assert --------------------------------------------------------*/
-  await expect(allCandidatesPage.$.candidateRow.first()).toBeVisible({timeout:10000})
+  await expect(allCandidatesPage.$.exclamationIcon.first()).toBeVisible({timeout:10000})
 
   })
-
 
 });
 

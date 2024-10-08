@@ -7,7 +7,7 @@ import browser from '../Player-Runner/BrowserManager'
 test('1234', async ({ page }) => {
     const positions = new positionsPage(page)
     await positions.goto('00 QA AUTOMATION')
-    await positions.search('AutomationsDavid1')
+    await positions.search('Automation Speak')
     await console.log('finish search')
     await positions.checkPositionStatusAndConnect()
     await page.waitForTimeout(1000)
