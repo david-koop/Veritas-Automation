@@ -1,48 +1,428 @@
 {
   "cookies": [
     {
-      "name": "_al",
-      "value": "al_66cef32e611c53_65628970",
+      "name": "_ga",
+      "value": "GA1.1.98709944.1727786954",
       "domain": "34.165.52.158",
       "path": "/",
-      "expires": 1756374702.293256,
+      "expires": 1762770764.939523,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_al",
+      "value": "al_66fbefc935c072_07367072",
+      "domain": "34.165.52.158",
+      "path": "/",
+      "expires": 1759322954.052473,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
     },
     {
-      "name": "_ga",
-      "value": "GA1.1.2106732249.1724838707",
+      "name": "ClientId",
+      "value": "052A3213410C4F56B94690BE23711948",
+      "domain": "outlook.office.com",
+      "path": "/",
+      "expires": 1759737325.054372,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "OIDC",
+      "value": "1",
+      "domain": "outlook.office.com",
+      "path": "/",
+      "expires": 1743926125.054435,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "esctx-0jiHFGm8OWU",
+      "value": "AQABCQEAAADW6jl31mB3T7ugrWTT8pFeBwHs4PhK_ADiWRJrvI2yyp8m4FbXvpHuGD4cu4h-dPGmnaPnX5z1lZ31VLB89whZTId7UpGXkUTYgYF2Ut6zq9R-3tgFYw2vbeMdor8CY_AuPeiczshMQXJTTKhev6W6YBndNF5NaGI6x5vw3nFlFSAA",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "x-ms-gateway-slice",
+      "value": "estsfd",
+      "domain": "login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "stsservicecookie",
+      "value": "estsfd",
+      "domain": "login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AADSSO",
+      "value": "NA|NoExtension",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "esctx-ojRs2A1GsBI",
+      "value": "AQABCQEAAADW6jl31mB3T7ugrWTT8pFeH6836VZgaDXgJcUyd3r1ic9c9lcBf1ZWKxjNBEBgxala_AphWXo0IOMVMmHx9d3tMXsd6X_MRbLqEwbDdW_Ii77KkEcUXpRBlDEUT_s5WPCnUSqSJfgdCTimPZizI_tNfXpZXRvflWESFyK7MV9C2yAA",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MicrosoftApplicationsTelemetryDeviceId",
+      "value": "a00b75d1-62fc-4155-a4b4-b29dc20308c1",
+      "domain": "login.microsoftonline.com",
+      "path": "/",
+      "expires": 1759737327.738681,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "brcap",
+      "value": "0",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": 1761900925,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ClientId",
+      "value": "145D5C97AD1A458AAD9F1F0A6E5F954D",
+      "domain": "outlook.office365.com",
+      "path": "/",
+      "expires": 1759737325.21234,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "OIDC",
+      "value": "1",
+      "domain": "outlook.office365.com",
+      "path": "/",
+      "expires": 1743926125.212395,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "wlidperf",
+      "value": "FR=L&ST=1728201327312",
+      "domain": ".microsoftonline.com",
+      "path": "/",
+      "expires": 1761900927,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ESTSAUTHLIGHT",
+      "value": "+ddca65a7-f6d5-4fe6-b24a-45be8c2a6427",
+      "domain": "login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "esctx",
+      "value": "PAQABBwEAAADW6jl31mB3T7ugrWTT8pFeLoMKfSqJrTvWE_Vs6EE-_kvi7SXrns0aFuKwpqe1729383nI7USPHmi1XXry8fgLAG1RA380UJI15Cbbi5sjx1LddXVJ8jWFua--elqM80_JdIbvXBf87phyFH-XvR9PW8ziphD2B_Rh6LB0cqOqYJP4nRXPitnS59ZjwI0ECH4gAA",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "esctx-64vsK4NQ5ig",
+      "value": "AQABCQEAAADW6jl31mB3T7ugrWTT8pFe0JE0fmOM-y-DfkbN7NgsPKsk9X6H-zaDcKycrVgZ_Gtnx45rcGAxrjDkFHAWCYSZWF1d59jDFrVk8nqbdw4TKXfJdKVyi4KklP8JHa3U4ZD4vSvE2CpJxa-ykTaf6E7a7AsppaYy59cKuEG_dlC8FiAA",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MC1",
+      "value": "GUID=77ad162e8c5e40538df48ac4eebd4aef&HASH=77ad&LV=202410&V=4&LU=1728201327860",
+      "domain": ".microsoft.com",
+      "path": "/",
+      "expires": 1759737327.978991,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "uaid",
+      "value": "7c3c5bf14ffa4221a0d5cef18968351e",
+      "domain": ".login.live.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MSPRequ",
+      "value": "id=N&lt=1728201327&co=2",
+      "domain": ".login.live.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ESTSAUTHPERSISTENT",
+      "value": "0.ATkACytnEIzXMkS673IUF98THQIAAAAAAPEPzgAAAAAAAADgAKA.AgABFwQAAADW6jl31mB3T7ugrWTT8pFeAwDs_wUA9P96l77eZpe5WuKP1FDPXKsnoFyRLJae5JuSdYIfwPozoJPcWNVMnCkVQJI7LxXMpMoh_tiDgvh7I8HkeqMY6EHogGRM1YCcRcZ9TKNIOrFLIWBlGS-vuFxhRdT5NF_HCuqCBHcqeFlL9dKIQzkIenVJM9GiEzSqrAkOQfdNs8bt7i5lAkRGE8R7xnOtJPS3NgQOiYJ8cryCuhhtYLG0oD0I92vNX0j4tOf3Lf-H2YdC0-TkDW-7Z-fckHsvIO6bduzOrJJ8t9amcHfXxr8GM35i-cRjwXaui_2m1pZinAK7C41Q_Ap-hiow_ay-X3EfuwnQEhCK5PHlTxhpxgXUreI06C0kep8ijfpbiAo5hmOvRHJMbHHlncf_qXOVv1UQQqbFmp4V5g",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": 1735977328.897999,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ESTSAUTH",
+      "value": "0.ATkACytnEIzXMkS673IUF98THQIAAAAAAPEPzgAAAAAAAADgAKA.AgABFwQAAADW6jl31mB3T7ugrWTT8pFeAwDs_wUA9P_sZhXClxaxbcAuaALIhbCCJQAa_Z0H2WQ9I88t9dDziuho3v_9XaB199jQF76CDdh7nQdmFrkYW2J478ZquAJD7JbprNloohlO4UMafm1UTdMvnl2XlikuHdgBR9uYYCaLrExb3EkD3GHnc7ls8UO9p3xocg_cUXszDM_UPjlmD6moaGcb0nQXER7o2v7-fbjdFWhtvdMoiwnWpMNN1VxfQu4LfTbg0-6B7GDbAIzzwJwkdM52yfDAm7knVWuOcO_3hlVAXV97gQt6GsCGpFEKXNsxDhMmGZJHb-UahKo7FlQwITBxw-eAM4pGiMTjFlNxkJDUkLEizn2_SdRMu_ZPS8wTdujCXgMeohO7ejKpRN5tRf4X5UcxN0rbmJXsLmij7XZcoOXCkOT6vImQVcD1RglBfsDM2YHLlJKOZ2bTaAOLeYrizl0lDUDYbQfBjaBmmyujsZ_-5ft8qIvEnf_v0_amtWMOCCTvO6Ex4jlYrSsNA8Gm7g0obnnvWB8bvV6v6bVTvb3KNUonCgfYTyYjsce7tj6AIcSawg-sDmk77rX-FiaPMAoe",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "buid",
+      "value": "0.ATkACytnEIzXMkS673IUF98THQIAAAAAAPEPzgAAAAAAAADgAKA.AQABGgEAAADW6jl31mB3T7ugrWTT8pFedkO9jG4ScQN3SMYecaUoQmW0C52tgc1-Lr6J5iSzg989lUYwNmbeuceO3ckcAFzKfn4EsUnX-l3dad4-kDSIb-NvEHZqVOXR5WQ2ZZ51myUVRCmk-iv0peKDHzNpnnK1CtD8Q0ZpbvhAjTRlO42U1ks7m5TfNOPgK9sdr3UgsjIgAA",
+      "domain": "login.microsoftonline.com",
+      "path": "/",
+      "expires": 1730793328.898302,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CCState",
+      "value": "Q29jQkNoUmhiWFJsYzNSQWNtRjJkR1ZqYUM1amJ5NXBiQklCQVNJSkNZQVZIMVgreTl4SUtna0p6ZkxwNXJmdDNFZ3lLZ29TQ2hBQ0FBQUFBQUR4RDg0QUFBQUFBQUFBRWdrSnRyTXRDemZvM0VnYUNRbk5jc2crM09YY1NEZ0FTQUJTRWdvUUN5dG5FSXpYTWtTNjczSVVGOThUSFZvU0NoQnpldnY0RUh1RFE3cjR0K1RZaFFOdkVoSUtFTkFScnc4dHBqVkdub3A0ZFhva1o4a2FDUW5OY3NnKzNPWGNTREorQWdBQkh3RUFBQURXNmpsMzFtQjNUN3VncldUVDhwRmVBd0RzL3dVQTlQL1EyWXdGcEZWK0U1cnZXbWQwOGpQK0lxblpGd3pqbEtobUs2NWtnNTIvaHBzaEFGRE5GUS9WVEdWRHh1bjFYSEc5VUdSUDk4dHdxc2tzZ3pHT2t2TEpqektnWUxNWFlQTks5d0s4b0pLV25nSEUrNTFBazA0c0NIRmk2WGE2",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": 1729065328.898371,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SignInStateCookie",
+      "value": "CAgABFgIAAADW6jl31mB3T7ugrWTT8pFeAwDs_wUA9P9lwniheRjuafXm0R_61Wj2ACDKtNwAJjz43iGArWo3iVq69TFcf46mCQjXh9zVgGNRb1wJmuo4J4-Z8qSTnOmNC7pYMGK1FSt032OIVzYHRyucQ7UfY84m8tVjrElRKYGVHZZbxX3k--4a4Q3HLzHSylW27AHoqKm0M4Yd2_gHkTta2kD_JjU0-8Nuyrcl4V0V10BdVJqARUw_6uplcZJ6raTOUT_J6stl-9UXANFfjGHFyXVa46STt3g",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "fpc",
+      "value": "Am4SPMNv57tGtWJL9w1vlW6erOTJAQAAAGs5lN4OAAAAYIltZwEAAABvOZTeDgAAAFC7Y1QBAAAAcDmU3g4AAAA",
+      "domain": "login.microsoftonline.com",
+      "path": "/",
+      "expires": 1730793328.898489,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "as",
+      "value": "Y2RgYGAEYmYgZjEyNjEAAA",
+      "domain": "outlook.office.com",
+      "path": "/",
+      "expires": 1730793328.958071,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "DefaultAnchorMailbox",
+      "value": "10032003C2D926DD@10672b0b-d78c-4432-baef-721417df131d",
+      "domain": "outlook.office.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "O365Consumer",
+      "value": "0",
+      "domain": "outlook.office.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "OWAAppIdType",
+      "value": "Exchange",
+      "domain": "outlook.office.com",
+      "path": "/",
+      "expires": 1730793340.166082,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "OpenIdConnect.token.v1",
+      "value": "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",
+      "domain": "outlook.office.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "domainName",
+      "value": "ravtech.co.il",
+      "domain": "outlook.office.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "OWAAppId",
+      "value": "00000002-0000-0ff1-ce00-000000000000",
+      "domain": "outlook.office.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SuiteServiceProxyKey",
+      "value": "tq9xlMlrDzYFhn8LDw7pg5pkyPzFb7MKaM24YwJy9o0=&N9IeCJyLA3p+mIOSHIg2NQ==",
+      "domain": "outlook.office.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "UC",
+      "value": "fea5fccb4d7e4c06aaac70b98019dc40",
+      "domain": "outlook.office.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "RoutingKeyCookie",
+      "value": "v2:oR2lrvIlcFI3g1O474B8fn21drgnHD4TDYfORz4pumY%3d:233a2471-b8f0-4238-b871-fa19fc9aed55@ravtech.co.il",
+      "domain": "outlook.office.com",
+      "path": "/",
+      "expires": 1730793330.2429,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "OptInH",
+      "value": "VPDuc0ICFdsHvdXB1z3SQ48KSAJcRy6Q1RCtzKTQCjI",
+      "domain": "outlook.office.com",
+      "path": "/",
+      "expires": 1735977330.243015,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "X-OWA-RedirectHistory",
+      "value": "AoJSsMwBvov0Ptzl3Ag|AsTJRt4BrrzXPtzl3Ag|ArLym14BeXXrO9zl3Ag",
+      "domain": "outlook.office.com",
+      "path": "/",
+      "expires": 1728223050.243073,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.1.879461074.1728201330",
       "domain": "34.165.52.158",
       "path": "/",
-      "expires": 1761114385.855742,
+      "expires": 1728297164,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
-      "name": "_gid",
-      "value": "GA1.1.1626480649.1726482597",
-      "domain": "34.165.52.158",
+      "name": "luat",
+      "value": "X+Wq2KoQfc9tIur3He5yCK6cDJojSyx0h2r6pPGdHeiuQ4fBbj4sWhjHBJEzjvz72xT5Q15zEdzcaF7cNPXJCSNX9ao4vkXqkLsG4JpFuVTcYJVDrVpz5+i2psOwQadym7RySK24oXl9sfbabpRKgnWyEVxTmRvTCrv4i5IFFZX+vGKZSyT7qTI/Ddrubd25iki3D/Lh8VJi5L1mUjKHkMkUKdnM0/czuqXJ9bacg3Q1+xkXZ9coTB7HTcJMqLLIurTNmYOLG4DfF8UOfb83l+AvVnvk/L0swqFiEklHV8vGVJ24OVVybhJ+FbsGk4wJlIyQaRMLZ8ioq0WOKKJaOw==",
+      "domain": "outlook.office.com",
       "path": "/",
-      "expires": 1726640785,
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "X-OWA-CANARY",
+      "value": "bdvoV-Hj7LUAAAAAAAAAABCjYUXc5dwY47sFUx7nGk9aw5Jo0JVTA0Hm3HbYVL3U7dtgTmQKLUs.",
+      "domain": "outlook.office.com",
+      "path": "/",
+      "expires": -1,
       "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
+      "secure": true,
+      "sameSite": "None"
     },
     {
       "name": "_gat_gtag_UA_85629928_1",
       "value": "1",
       "domain": "34.165.52.158",
       "path": "/",
-      "expires": 1726554439,
+      "expires": 1728210817,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "PHPSESSID",
-      "value": "d8e10f90449d835ea471f74f9894b9dd",
+      "value": "87301173ac810ad2fbfbfcde0c7fa311",
       "domain": "34.165.52.158",
       "path": "/",
       "expires": -1,
@@ -57,7 +437,7 @@
       "localStorage": [
         {
           "name": "XSRF_TOKEN",
-          "value": "f7563af4a3e269531164b5d1cf0766ed"
+          "value": "9116d492bbff246957f37e619a215a99"
         },
         {
           "name": "player",
@@ -68,16 +448,77 @@
           "value": "{\"male\":true,\"id\":\"1\",\"name_tid\":\"72057594213098023\",\"code\":\"en\",\"production\":\"t\",\"content\":\"t\",\"short_code\":\"en\",\"rtl\":\"f\",\"locale\":\"en_us\",\"gender\":\"t\",\"order_index\":\"2\",\"name\":\"English\",\"names_ml\":[{\"id\":\"72057594213098941\",\"ct_language_id\":\"1\",\"value\":\"English\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785415508444316\",\"ct_language_id\":\"1801439851240451860\",\"value\":\"Inglés\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"72057594213098947\",\"ct_language_id\":\"3\",\"value\":\"Англiйська\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"1801439851240443223\",\"ct_language_id\":\"4\",\"value\":\"אנגלית\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785425880074571\",\"ct_language_id\":\"1801439851240446753\",\"value\":\"Inglês\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"}]}"
         },
         {
-          "name": "inactivityTick",
-          "value": "1724926503715"
-        },
-        {
-          "name": "intercom.intercom-state",
-          "value": "{\"app\":{\"color\":\"#333333\",\"secondaryColor\":\"#333333\",\"openConfig\":{\"layout\":\"default\",\"openTo\":\"messages\",\"spaces\":[{\"type\":\"messages\",\"label\":\"Messages\",\"navigationLabel\":\"Messages\",\"badge\":null}],\"userHasReceivedChecklists\":false,\"userHasLiveNewsfeed\":false,\"userHasTickets\":false},\"selfServeSuggestionsMatch\":false,\"name\":\"Adam Milo [TEST]\",\"features\":{\"anonymousInboundMessages\":true,\"googleAnalytics\":false,\"hubspotInstalled\":false,\"inboundMessages\":true,\"marketoEnrichmentInstalled\":false,\"outboundMessages\":true,\"googleAnalytics4Integration\":true},\"launcherLogoUrl\":null,\"inboundConversationsDisabled\":false,\"isInstantBootEnabled\":false,\"alignment\":\"right\",\"horizontalPadding\":20,\"verticalPadding\":20,\"isDeveloperWorkspace\":false,\"customGoogleAnalyticsTrackerId\":null},\"launcher\":{\"isLauncherEnabled\":true},\"launcherDiscoveryMode\":{\"hasDiscoveredLauncher\":true},\"user\":{\"role\":\"user\",\"locale\":\"en\",\"hasConversations\":false},\"message\":{},\"conversations\":{\"byId\":{}},\"openOnBoot\":{\"type\":null,\"metadata\":{},\"lastOpenAtTimestamp\":1726123487198},\"operator\":{\"lastComposerEvent\":0},\"router\":{\"isInitialized\":false,\"navigationQueue\":[]}}"
-        },
-        {
           "name": "locale",
           "value": "{\"male\":true,\"id\":\"1\",\"name_tid\":\"72057594213098023\",\"code\":\"en\",\"production\":\"t\",\"content\":\"t\",\"short_code\":\"en\",\"rtl\":\"f\",\"locale\":\"en_us\",\"gender\":\"t\",\"order_index\":\"2\",\"name\":\"English\",\"names_ml\":[{\"id\":\"72057594213098941\",\"ct_language_id\":\"1\",\"value\":\"English\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785415508444316\",\"ct_language_id\":\"1801439851240451860\",\"value\":\"Inglés\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"72057594213098947\",\"ct_language_id\":\"3\",\"value\":\"Англiйська\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"1801439851240443223\",\"ct_language_id\":\"4\",\"value\":\"אנגלית\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785425880074571\",\"ct_language_id\":\"1801439851240446753\",\"value\":\"Inglês\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"}]}"
+        }
+      ]
+    },
+    {
+      "origin": "https://outlook.office.com",
+      "localStorage": [
+        {
+          "name": "O365Shell_ThemeInfo_Business",
+          "value": "{\"Id\":\"base\",\"Primary\":\"#0F6CBD\",\"NavBar\":\"#0F6CBD\",\"DefaultBackground\":\"#0F6CBD\",\"BackgroundImageUrl\":null,\"DefaultText\":\"#FFFFFF\",\"AppName\":\"#FFFFFF\",\"FullBleedImages\":null,\"userPersonalizationAllowed\":true}"
+        },
+        {
+          "name": "olk-BootDiagnostics",
+          "value": "{\"puid\":\"10032003C2D926DD\",\"tid\":\"10672b0b-d78c-4432-baef-721417df131d\",\"mbx\":\"233a2471-b8f0-4238-b871-fa19fc9aed55\",\"prem\":\"0\",\"isCon\":false,\"upn\":\"amtest@ravtech.co.il\"}"
+        },
+        {
+          "name": "olk-LogicalRing",
+          "value": "WW"
+        },
+        {
+          "name": "olk-isTimeZoneCacheAvailable",
+          "value": "true"
+        },
+        {
+          "name": "olk-bootstrapMailListItemViewSwapSetting",
+          "value": "true"
+        },
+        {
+          "name": "olk-EnvDiagnostics",
+          "value": "{\"fe\":\"GV3PEPF00002E52, TL0P290CA0006\",\"be\":\"GV1PR08MB8474\",\"wsver\":\"15.20.8026.19\",\"fost\":\"EURPRD08\",\"dag\":\"EURPR08DG507\",\"te\":\"0\"}"
+        },
+        {
+          "name": "olk-OwaClientId",
+          "value": "052A3213410C4F56B94690BE23711948"
+        },
+        {
+          "name": "olk-bootstrapMailListItemWindowWidth",
+          "value": "1920"
+        },
+        {
+          "name": "olk-OwaLocale",
+          "value": "he"
+        },
+        {
+          "name": "olk-OwaSessionCount",
+          "value": "1"
+        },
+        {
+          "name": "olk-undefinedOwaPreloadStrings",
+          "value": "[\"https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/../resources/locale/he/owa.worker.data.7292bf9d.json\"]"
+        },
+        {
+          "name": "olk-sdmp",
+          "value": "{\"TimeZoneStr\":\"Israel Standard Time\",\"InboxReadingPanePosition\":1,\"IsFocusedInboxOn\":true,\"BootWithConversationView\":true,\"SortResults\":[{\"Path\":{\"__type\":\"PropertyUri:#Exchange\",\"FieldURI\":\"conversation:LastDeliveryOrRenewTime\"},\"Order\":\"Descending\"},{\"Path\":{\"__type\":\"PropertyUri:#Exchange\",\"FieldURI\":\"conversation:LastDeliveryTime\"},\"Order\":\"Descending\"}],\"IsSenderScreeningSettingEnabled\":false}"
+        },
+        {
+          "name": "olk-sdfp",
+          "value": "{\"TimeZoneStr\":\"Israel Standard Time\",\"FolderPaneBitFlags\":0}"
+        },
+        {
+          "name": "olk-bootFailureCount",
+          "value": "0"
+        },
+        {
+          "name": "olk-MailOwaPreloadStrings",
+          "value": "[\"https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/../resources/locale/he/owa.AppBoot.m.1c5d4812.json\"]"
+        },
+        {
+          "name": "olk-UsersNormalizedTheme",
+          "value": "base"
         }
       ]
     }

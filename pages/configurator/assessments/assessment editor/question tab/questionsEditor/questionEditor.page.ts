@@ -175,12 +175,16 @@ class QuestionEditorPage extends BasePage {
         await this.selectQuestionType(questionType);
         await this.clickAddAnswer();
         await this.$.addQuestionInQuestionnaireButton.click();
+        await this.page.waitForTimeout(1500)
         await this.getSaveMessage();
+        await this.page.waitForTimeout(1500)
         await this.AddQuestionAndAnswersAndConnectScale('Single choice', ['answer1', 'answer2'], scalesName, score, specialRule);
         await this.$.questionnaireMainPage(questionName).click();
         await this.clickAddAnswer();
         await this.$.addQuestionInQuestionnaireButton.click();
+        await this.page.waitForTimeout(1500)
         await this.getSaveMessage();
+        await this.page.waitForTimeout(1500)
         await this.AddQuestionAndAnswersAndConnectScale('Free text', undefined, scalesName, score, specialRule);
         await this.$.questionnaireMainPage(questionName).click();
     }
