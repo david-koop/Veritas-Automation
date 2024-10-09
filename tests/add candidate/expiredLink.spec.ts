@@ -5,9 +5,9 @@ import OrgNavbarPage from '../../pages/organization side/OrgNavbar.page';
 import AllCandidatePage from '../../pages/organization side/allCandidates.page';
 
 
-
 let page: Page;
 let context;
+let id = generateRandomNumbers() + ' AUTO'
 const organizationName = '00 QA AUTOMATION'
 const positionName = 'AutomationsDavid1'
 const pastTestDate = getYesterday()
@@ -37,23 +37,12 @@ test.describe.serial('Expired Link', () => {
 
     await addCandidatePage.goto(organizationName)
     
-    //Adding ID and verification that it is unique
-    let idAvailable = false
-    let id = generateRandomNumbers() + ' AUTO'
-
-    while (!idAvailable) {
-      idAvailable = await addCandidatePage.fillAndCheckId(id)
-
-      if (!idAvailable) {
-        id = generateRandomNumbers() + ' AUTO'
-      }
-    }
-
+    await addCandidatePage.generateAndFillID(id)
     await addCandidatePage.addPosition(positionName)
     await addCandidatePage.fillCandidateInfo('david', 'automation', 'male')
     await addCandidatePage.changeTheTestDate(pastTestDate)
-    await page.pause()
     await addCandidatePage.saveAndStart()
+    
     /* ------------------------------------------- Assert --------------------------------------------------------*/
     await expect(addCandidatePage.$.successMessage).toBeVisible({ timeout: 10000 })
     
@@ -76,23 +65,12 @@ test.describe.serial('Expired Link', () => {
 
     await addCandidatePage.goto(organizationName)
 
-    //Adding ID and verification that it is unique
-    let idAvailable = false
-    let id = generateRandomNumbers() + ' AUTO'
-
-    while (!idAvailable) {
-      idAvailable = await addCandidatePage.fillAndCheckId(id)
-
-      if (!idAvailable) {
-        id = generateRandomNumbers() + ' AUTO'
-      }
-    }
-
+    await addCandidatePage.generateAndFillID(id)
     await addCandidatePage.addPosition(positionName)
     await addCandidatePage.fillCandidateInfo('david', 'automation', 'male')
     await addCandidatePage.changeTheTestDate(futureTestDate)
-    await page.pause()
     await addCandidatePage.saveAndStart()
+
     /* ------------------------------------------- Assert --------------------------------------------------------*/
     await expect(addCandidatePage.$.successMessage).toBeVisible({ timeout: 10000 })
     

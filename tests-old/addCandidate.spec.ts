@@ -15,7 +15,7 @@ test.describe('ADD CANDIDATE TESTS', () => {
         let id = '123'
 
         while (!idAvailable) {
-            idAvailable = await addCandidate.fillAndCheckId(id)
+            idAvailable = await addCandidate.fillAndCheckID(id)
 
             if (id === '123') expect(idAvailable).toBeFalsy()
             if (id === '1234') expect(idAvailable).toBeFalsy()

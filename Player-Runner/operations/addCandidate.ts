@@ -6,7 +6,7 @@ const addCandidate = async (id: string, orgName: string, posName: string) => {
     const customerPage = new AddCandidatePage(page)
     await customerPage.goto(orgName)
     await customerPage.addPosition(posName)
-    await customerPage.fillAndCheckId(id)
+    await customerPage.fillAndCheckID(id)
     await customerPage.fillCandidateInfo('QA' + id, 'QA', 'male')
     await customerPage.save()
     await browser.close(page);
