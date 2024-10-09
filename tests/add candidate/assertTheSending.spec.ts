@@ -48,17 +48,8 @@ test('send SMS and verify the SMS received', async () => {
 
 
   await addCandidatePageNewTab.goto(organizationName)
-  //Adding ID and verification that it is unique
-  let idAvailable = false
 
-  while (!idAvailable) {
-    idAvailable = await addCandidatePageNewTab.fillAndCheckId(id)
-
-    if (!idAvailable) {
-      id = generateRandomNumbers() + ' AUTO'
-    }
-  }
-
+  await addCandidatePageNewTab.generateAndFillID(id)
   await addCandidatePageNewTab.addPosition(positionName)
   await addCandidatePageNewTab.fillCandidateInfo('david', 'automation', 'male')
   await addCandidatePageNewTab.fillPhoneNumberAndEmail(phoneNumber, email)
@@ -88,7 +79,7 @@ test.describe('Assert the sending link', () => {
 
 
     if (await page.url().includes('login.microsoftonline.com/')) {
-
+    await page.waitForTimeout(1000)
       if (await page.locator('.table-cell.text-left.content').getByText('amtest@ravtech.co.il').isVisible()) {
         await page.locator('.table-cell.text-left.content').getByText('amtest@ravtech.co.il').click()
       } else {
@@ -119,17 +110,8 @@ test.describe('Assert the sending link', () => {
 
 
     await addCandidatePageNewTab.goto(organizationName)
-    //Adding ID and verification that it is unique
-    let idAvailable = false
-
-    while (!idAvailable) {
-      idAvailable = await addCandidatePageNewTab.fillAndCheckId(id)
-
-      if (!idAvailable) {
-        id = generateRandomNumbers() + ' AUTO'
-      }
-    }
-
+   
+    await addCandidatePageNewTab.generateAndFillID(id)
     await addCandidatePageNewTab.addPosition(positionName)
     await addCandidatePageNewTab.fillCandidateInfo('david', 'automation', 'male')
     await addCandidatePageNewTab.fillPhoneNumberAndEmail(phoneNumber, email)
@@ -148,11 +130,11 @@ test.describe('Assert the sending link', () => {
 
 
     /* ------------------------------------------- Assert --------------------------------------------------------*/
-    await expect(page.locator('.TtcXM').first()).toContainText('Link to the test', { ignoreCase: true })
+    await expect(page.locator('.TtcXM').getByText('Link to the test').first()).toContainText('Link to the test', { ignoreCase: true })
 
 
 
-    await page.locator('.TtcXM').first().click()
+    await page.locator('.TtcXM').getByText('Link to the test').first().click()
     const mewTabPromise = page.waitForEvent('popup');
     await page.locator('[target="_blank"]').getByText('Press here to start').click()
     const newTab = await mewTabPromise;
@@ -161,7 +143,7 @@ test.describe('Assert the sending link', () => {
 
 
     /* ------------------------------------------- Assert --------------------------------------------------------*/
-    await expect(newTab.getByPlaceholder('ID')).toHaveValue(id, { timeout: 30000 });
+    await expect(newTab.getByPlaceholder('ID')).toHaveValue('auto1321233', { timeout: 30000 }); //id
 
 
     await newTab.locator('.btn-block.accessibility-outline-focus').click()

@@ -32,17 +32,7 @@ test('create candidate with IGame', async () => {
 
     await addCandidatePage.goto(organizationName)
 
-    //Adding ID and verification that it is unique
-    let idAvailable = false
-
-    while (!idAvailable) {
-        idAvailable = await addCandidatePage.fillAndCheckId(id)
-
-        if (!idAvailable) {
-            id = generateRandomNumbers() + ' AUTO'
-        }
-    }
-
+    await addCandidatePage.generateAndFillID(id)
     await addCandidatePage.addPosition(positionName)
     await addCandidatePage.fillCandidateInfo('david', 'automation', 'male')
     await addCandidatePage.save()

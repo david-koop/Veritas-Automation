@@ -110,7 +110,7 @@ class AddCandidatePage extends BasePage {
 
 
 
-    async fillAndCheckId(id: string) {
+    async fillAndCheckID(id: string) {
         await this.$.idInput.fill(id)
         await this.page.keyboard.press('Enter')
 
@@ -129,6 +129,18 @@ class AddCandidatePage extends BasePage {
 
         return true
 
+    }
+
+    async generateAndFillID(id: string) {
+        let idAvailable = false
+
+        while (!idAvailable) {
+            idAvailable = await this.fillAndCheckID(id)
+
+            if (!idAvailable) {
+                id = generateRandomNumbers() + ' AUTO'
+            }
+        }
     }
 
 
