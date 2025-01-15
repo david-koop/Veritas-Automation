@@ -70,6 +70,16 @@ class PlayerInTest {
         }
     }
 
+    async aaa (){
+        const a = await this.page.locator('app-answer-text-position').first().textContent()
+        await this.page.locator('app-answer-text-position').first().highlight()
+        await this.page.locator('app-answer-text-position').first().click()
+        await this.page.locator('[title="Done button"]').first().click()
+
+        console.log(a)
+
+    }
+
 
 }
 

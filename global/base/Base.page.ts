@@ -126,5 +126,10 @@ async function test(){
 }
 // test()
 
+export async function clickAndFill(locator: Locator, input:string) {
+    await locator.click();
+    await locator.fill(input)
+}
+
 export {Button, Input, Textual, Item}
 export default BasePage

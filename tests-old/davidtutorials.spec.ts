@@ -13,9 +13,27 @@ import WrapperCreateNewAssessment from '../pages/configurator/assessments/assess
 import AssessmentCreationPage from '../pages/configurator/assessments/assessment creation/assessmentCreation.page';
 import { integrityExtendedScales, personalityScales, integritySEScales, skillsIGameScales, skillsScales, skillsSpeakScales } from '../pages/configurator/assessments/assessment editor/scales tab/scaleTab.page'
 import singleChoice from '../pages/player/screens/singleChoice';
+import CreateOrganization from '../pages/organization configurator side/CreateOrganization';
+
+
+const orgName = 'AAAdavid'
+const bnNumber = '22556633'
+const city = 'jerusalem'
+const address = 'hartom'
+const contactPosition = 'QA'
+const contactName = 'David AU'
+const contactPhone = '0546255777'
+const contactEmail = 'auto@ravtech.co.il'
+const marketType ='Internal Testing'
+const classificationType ='Internal Testing'
+const languages = ['Hebrew', 'English']
+
+
+
 
 test('david', async ({ page }) => {
-    const createAssessment = new AssessmentCreationPage(page);
+    // const createAssessment = new AssessmentCreationPage(page);
+    const createOrganization = new CreateOrganization(page);
     // const scalesPage = new AssessmentEditorScalesTab(page);
     const assessmentEditorTabs = new AssessmentEditorTabsPage(page);
     const assessmentList = new AssessmentListSection(page);
@@ -29,9 +47,18 @@ test('david', async ({ page }) => {
     // await createIntegrityAssessment.setOtherSettings();
     // await createIntegrityAssessment.clickSaveButton();
     // await createIntegrityAssessment.getSaveMessage();
-    
 
-    // await page.pause()
+    await createOrganization.goto()
+    await createOrganization.clickAddOrganization()
+    await page.pause()
+    await createOrganization.fillNewOrganizationForm(orgName,'ID',bnNumber,city,address,contactPosition,contactName,contactPhone,contactEmail,marketType,classificationType,languages)
+   
+   
+   
+   
+   
+   
+   
     // await wrapperCreateNewAssessment.gotoAssessmentPage();
     // await wrapperCreateNewAssessment.createAssessmentWithScalesAndQuestions('Integrity');
     // await assessmentEditorTabs.navigateToQuestions();
@@ -61,37 +88,37 @@ test('david', async ({ page }) => {
     // await questionEditorPage.gotoQuestionMainPage();
     // await questionPage.clickAddQuestion();
     // await questionEditorPage.AddQuestionAndAnswersAndConnectScale('Drag and Drop',['1zz','2'],integrityExtendedScales,88,undefined);
-    
+
     // await questionEditorPage.selectQuestionTypeAndAddAnswersAndAddScalesAndSave('question Name : Confirm info','Confirm info',undefined,integrityExtendedScales,33,undefined);
-    
-    
+
+
     // await page.goto('https://34.165.52.158/ac/#/assessment/936748755020777811/questions');
     // await questionPage.clickAddQuestion();
     // await questionEditorPage.createQuestionnaireWithSingleChoiceAndFreeText('Questionnaire','Questionnaire',integrityExtendedScales,3,undefined);
-    
-    
-    
-    
+
+
+
+
     // await questionEditorPage.AddQuestionAndAnswersAndConnectScale('Free text',undefined,integrityExtendedScales,66,undefined);
-    
+
     // await questionEditorPage.createQuestionnaireWithSingleChoiceAndFreeText('Questionnaire','Questionnaire',integrityExtendedScales,3,undefined);
-   
-   
-   
-   
+
+
+
+
     // await assessmentList.editAssessment('QA integrity Extended 24/06/2024, 9:40:24')
-    
-    
-    
-    
-    
-    
-   
-   
-   
-   
-   
-   
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
