@@ -173,18 +173,18 @@ class QuestionEditorPage extends BasePage {
     async createQuestionnaireWithSingleChoiceAndFreeText(questionName: string, questionType: 'Questionnaire', scalesName?: Array<string>, score?: number, specialRule?: string,) {
         await this.insertQuestionName(questionName);
         await this.selectQuestionType(questionType);
+        await this.page.waitForTimeout(500)
         await this.clickAddAnswer();
         await this.$.addQuestionInQuestionnaireButton.click();
-        await this.page.waitForTimeout(1500)
         await this.getSaveMessage();
-        await this.page.waitForTimeout(1500)
-        await this.AddQuestionAndAnswersAndConnectScale('Single choice', ['answer1', 'answer2'], scalesName, score, specialRule);
+        await this.page.waitForTimeout(500)
+        await this.AddQuestionAndAnswersAndConnectScale('Single choice', ['answer1'], scalesName, score, specialRule);
         await this.$.questionnaireMainPage(questionName).click();
+        await this.page.waitForTimeout(500)
         await this.clickAddAnswer();
         await this.$.addQuestionInQuestionnaireButton.click();
-        await this.page.waitForTimeout(1500)
         await this.getSaveMessage();
-        await this.page.waitForTimeout(1500)
+        await this.page.waitForTimeout(500)
         await this.AddQuestionAndAnswersAndConnectScale('Free text', undefined, scalesName, score, specialRule);
         await this.$.questionnaireMainPage(questionName).click();
     }

@@ -5,7 +5,7 @@
       "value": "GA1.1.98709944.1727786954",
       "domain": "34.165.52.158",
       "path": "/",
-      "expires": 1763016593.398902,
+      "expires": 1771502031.008847,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -141,16 +141,6 @@
       "sameSite": "None"
     },
     {
-      "name": "OWAAppIdType",
-      "value": "Exchange",
-      "domain": "outlook.office.com",
-      "path": "/",
-      "expires": 1731048593.948345,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
       "name": "domainName",
       "value": "ravtech.co.il",
       "domain": "outlook.office.com",
@@ -181,26 +171,6 @@
       "sameSite": "None"
     },
     {
-      "name": "RoutingKeyCookie",
-      "value": "v2:oR2lrvIlcFI3g1O474B8fn21drgnHD4TDYfORz4pumY%3d:233a2471-b8f0-4238-b871-fa19fc9aed55@ravtech.co.il",
-      "domain": "outlook.office.com",
-      "path": "/",
-      "expires": 1730793330.2429,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "OptInH",
-      "value": "VPDuc0ICFdsHvdXB1z3SQ48KSAJcRy6Q1RCtzKTQCjI",
-      "domain": "outlook.office.com",
-      "path": "/",
-      "expires": 1735977330.243015,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
       "name": "esctx-bxnJjEVIpo",
       "value": "AQABCQEAAADW6jl31mB3T7ugrWTT8pFedSebUm946QGPjmGa7UmxM9CpY5NXncb7YcOW2x4r97xElaBH6G_HWynWV_BAOPhBxzSPGOW5jtGLfBQoDD6VKLQV1I1BVvaztKXe6GZ2sV9mNRbbH5a898Sh31gBuFSRqXBtFE7iwm4ALzbFsj-VuCAA",
       "domain": ".login.microsoftonline.com",
@@ -219,16 +189,6 @@
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
-    },
-    {
-      "name": "_gid",
-      "value": "GA1.1.712674431.1728387219",
-      "domain": "34.165.52.158",
-      "path": "/",
-      "expires": 1728542993,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
     },
     {
       "name": "MSFPC",
@@ -331,16 +291,6 @@
       "sameSite": "None"
     },
     {
-      "name": "ESTSAUTHPERSISTENT",
-      "value": "0.ATkACytnEIzXMkS673IUF98THQIAAAAAAPEPzgAAAAAAAADgAKA.AgABFwQAAADW6jl31mB3T7ugrWTT8pFeAwDs_wUA9P-VdkM7urPQ5eIQlIE6124nqFRU3ryNlINr9Of31BPbo4uPxt9v1Q7b-VqHiw7JsM_2XbRNl1bowysCPtQIGQOo8B2_IlhWZfydrQeKP4FU37nz8NhvvcExNrC2vZhL3mHm3syoOkyps2706mDOZ5tW89wCsSCElVfpzxDSnLmfD-VSF_KAUZ79lUTmVlEo0Mcpo84XNVLbKtZ6ZNL9PM_RIgMzNSpnU2NhoEXMsG9hBDqbTtlV-SAJ-XNUXIQZL24LPLxJbeSMliDswsbM3FMSM7EqQ6bSzfFIHUy-XfNCxixubUW12jNooNfcxjRHsE0QFu1rhvEg5fH2wCEDZQXDNT3WoCtgKDCddkgiIT_yynBNW21HvKvQCw4mgAkd5M5agY21Gw",
-      "domain": ".login.microsoftonline.com",
-      "path": "/",
-      "expires": 1736232584.820874,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
       "name": "ESTSAUTH",
       "value": "0.ATkACytnEIzXMkS673IUF98THQIAAAAAAPEPzgAAAAAAAADgAKA.AgABFwQAAADW6jl31mB3T7ugrWTT8pFeAwDs_wUA9P_QIMlQI2esxA5LrQf5vv3tnpt18Sq26_FPxMWxaeXUYsMSfjZ_cR8mr2Oevrhq6Uuun-V8H_z9s_mG0d1RqqpDW96sjNokrjTE9fRdJ6ni4FAsAwSu4XkjV9uWDO2XiGv2jat7LlnKWNg9rZj-Oh0uFby-tF3KPNqgpy-QvI_HnkKAmDxLt55KhSwSnQ6ZuGLy1AZDSY1AgFVQ2tnw_eJS1ELKNj0Op1ynxBKR9eFqjo7l26f4fBbYfVLxYzhEpEsI2ocYg0MzqV1O_Majb3uaMCk5OPbyYVbLI9xtZfzfX16L09KznLD_pg1rFKgNlzFRm-WvyZrRFoaTtyByt7WFSMBDgz-EnhSUQs7cGQJqbjjbhjB9yjDg91OjTfD59J44aRhlZ0RpkiIq3X4VLQ0bNNv-D6AFkhvqz7hoWMgbwt6kCfXIHbXTqVnNvgtX7gkGat7rIZZi2LBkkRCq95wEjHbogbp16dJN-b1NcxdZWWasSFvSV288j7fDGfjv7wFQvcXWz2h2U56a9uEGUlXj8a1QsTuidpEq0w2YT2MCe7jhTT43chOW",
       "domain": ".login.microsoftonline.com",
@@ -351,51 +301,11 @@
       "sameSite": "None"
     },
     {
-      "name": "buid",
-      "value": "0.ATkACytnEIzXMkS673IUF98THQIAAAAAAPEPzgAAAAAAAADgAKA.AQABGgEAAADW6jl31mB3T7ugrWTT8pFeXocRL4lJibusAy5QdsR6PB8OA1udoXB8zt_-fADFoPxDkGo5LX7OmUXkY2Q9jf9eaM7fQcsSyRZ_h-tbe0SnzdQq75jW9NICPT7hoCh9pS395poWKBBibpDtAIauAoxekmGeRnu7QttU8E5MQok2SuhFm64jvc_MKldJpmGIKQUgAA",
-      "domain": "login.microsoftonline.com",
-      "path": "/",
-      "expires": 1731048584.821049,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "CCState",
-      "value": "Q29jQkNoUmhiWFJsYzNSQWNtRjJkR1ZqYUM1amJ5NXBiQklCQVNJSkNZQVZIMVgreTl4SUtna0p6ZkxwNXJmdDNFZ3lLZ29TQ2hBQ0FBQUFBQUR4RDg0QUFBQUFBQUFBRWdrSllnY3QyZWZwM0VnYUNRa0lsOHNNamVmY1NEZ0FTQUJTRWdvUUN5dG5FSXpYTWtTNjczSVVGOThUSFZvU0NoQnpldnY0RUh1RFE3cjR0K1RZaFFOdkVoSUtFTkFScnc4dHBqVkdub3A0ZFhva1o4a2FDUWtJbDhzTWplZmNTREorQWdBQkh3RUFBQURXNmpsMzFtQjNUN3VncldUVDhwRmVBd0RzL3dVQTlQK0FpN1Z5UkczWjIwL0pBUUhCaEhRakoyeEhpVFFiQzFhdVEzZkNkK0V1ajhYeFlkNXdlVEhMWWdzSXpJb3hNS3VMNzZCUUNIVmREaDVnWFJHWFJaVWdFYjVkcWNRVFMwUTRPUUVWZWtsenRNMHNwU0t6UmVMb25SQ05nNmEz",
-      "domain": ".login.microsoftonline.com",
-      "path": "/",
-      "expires": 1729320584.821082,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
       "name": "SignInStateCookie",
       "value": "CAgABFgIAAADW6jl31mB3T7ugrWTT8pFeAwDs_wUA9P-k0ezujiyCXJIRmxgVIAesqPoimJhKG42qMl3fEaF6gZtfKQFABlJ-wcRqatXIPAgZIELymPmqTvLCQ3QmoGPIW6XlP7nygtKOD0xj0cQAWkeBpFR2K2FU5-8k5BYkPPHr_ETV9gPrsZkn7MH2pTPHAFb0wjUFA2-F6uPSNoUtHVP4F2saxbzf7q4tJgQjuR1VaW_uUWRzR7nC6uaiqJEVg2_4vyGMxYlHfTJ9kX93vF3j-LyeuLpF-A",
       "domain": ".login.microsoftonline.com",
       "path": "/",
       "expires": -1,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "fpc",
-      "value": "Am4SPMNv57tGtWJL9w1vlW6erOTJAQAAAIAemN4OAAAAYIltZwEAAACFHpjeDgAAAFC7Y1QBAAAAhx6Y3g4AAAA",
-      "domain": "login.microsoftonline.com",
-      "path": "/",
-      "expires": 1731048584.821153,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "as",
-      "value": "Y2RgYGAEYmYgZjG0NDUCAA",
-      "domain": "outlook.office.com",
-      "path": "/",
-      "expires": 1731048584.948378,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
@@ -421,26 +331,6 @@
       "sameSite": "None"
     },
     {
-      "name": "X-OWA-RedirectHistory",
-      "value": "AoJSsMwBbNvWji7o3Ag|AsTJRt4BX46pji7o3Ag|ArLym14BsWw_ii7o3Ag",
-      "domain": "outlook.office.com",
-      "path": "/",
-      "expires": 1728478305.281801,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "_gat_gtag_UA_85629928_1",
-      "value": "1",
-      "domain": "34.165.52.158",
-      "path": "/",
-      "expires": 1728456646,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
       "name": "luat",
       "value": "aZjYfT+/PqTRBT9IkTKe7YGhJRFl/l6S3KEO8IZzK769QnGYSEZJu9et6izgsijFrfdXt+2230uOpu31U3F429A0NSXnh0UPt+gt5IRYoC0rjCWsIEUco675VqJR2a+ip3HVkCbXXHl/6D9GHhTnTkyISO2Chzs8jGsdM377EGRoQ69fGJpwwWZ09InzdtC0xU3n+BJSfkVv2T7KUkTDMDCRTdKjiEG/vLOW4XcklePpr0DyMTU7/AhsB9y1g8qW83slnHo0mMoevJnl29WkyAVNTHgi3ioN+9OK/2NF33kMo3YLZVYbjC1iFewzay/ILBf/3t29n0oZr6LIZPuY7Q==",
       "domain": "outlook.office.com",
@@ -451,16 +341,6 @@
       "sameSite": "None"
     },
     {
-      "name": "PHPSESSID",
-      "value": "19d7d5de024926314799211a3c615b7c",
-      "domain": "34.165.52.158",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
       "name": "X-OWA-CANARY",
       "value": "bdvoV-Hj7LUAAAAAAAAAAIB-BJQu6NwYFyi8faAZ9Vc-8XBg5e7M84hgrYGYNlP-gkD6f_VwuVQ.",
       "domain": "outlook.office.com",
@@ -469,9 +349,151 @@
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
+    },
+    {
+      "name": "ps_token",
+      "value": "ps_6707d77b854ac0.32994659",
+      "domain": "34.165.52.158",
+      "path": "/",
+      "expires": 1760103164.990633,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1785284424.1733062265",
+      "domain": "34.165.119.202",
+      "path": "/",
+      "expires": 1767622270.342609,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_al",
+      "value": "al_674c6e799567b2_02906385",
+      "domain": "34.165.119.202",
+      "path": "/",
+      "expires": 1764598265.497361,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "PHPSESSID",
+      "value": "3622e4239b41e3ebdbbe2f72752c9c99",
+      "domain": "34.165.119.202",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_7ZS9P0P0XW",
+      "value": "GS1.1.1733062265.1.1.1733062270.0.0.0",
+      "domain": "34.165.119.202",
+      "path": "/",
+      "expires": 1767622270.183701,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.1.1933521740.1736936547",
+      "domain": "34.165.52.158",
+      "path": "/",
+      "expires": 1737028431,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat_gtag_UA_85629928_1",
+      "value": "1",
+      "domain": "34.165.52.158",
+      "path": "/",
+      "expires": 1736942086,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "PHPSESSID",
+      "value": "bc69d8fdb536c8d2700bda19a6a16f75",
+      "domain": "34.165.52.158",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
     }
   ],
   "origins": [
+    {
+      "origin": "https://34.165.52.158",
+      "localStorage": [
+        {
+          "name": "XSRF_TOKEN",
+          "value": "cc6b6b67fc817a3cc8a3a4c355d78a65"
+        },
+        {
+          "name": "playerVideoPlayOnceId",
+          "value": ""
+        },
+        {
+          "name": "notificationsTimestamp",
+          "value": ""
+        },
+        {
+          "name": "player",
+          "value": "{\"male\":true,\"id\":\"1\",\"$$mname\":\"langs\",\"name_tid\":\"72057594213098023\",\"code\":\"en\",\"production\":\"t\",\"content\":\"t\",\"short_code\":\"en\",\"rtl\":\"f\",\"locale\":\"en_us\",\"gender\":\"t\",\"order_index\":\"2\",\"name\":\"English\",\"names_ml\":[{\"id\":\"72057594213098941\",\"$$mname\":\"names_ml\",\"ct_language_id\":\"1\",\"value\":\"English\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785415508444316\",\"$$mname\":\"names_ml\",\"ct_language_id\":\"1801439851240451860\",\"value\":\"Inglés\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"72057594213098947\",\"$$mname\":\"names_ml\",\"ct_language_id\":\"3\",\"value\":\"Англiйська\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"1801439851240443223\",\"$$mname\":\"names_ml\",\"ct_language_id\":\"4\",\"value\":\"אנגלית\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785425880074571\",\"$$mname\":\"names_ml\",\"ct_language_id\":\"1801439851240446753\",\"value\":\"Inglês\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"}]}"
+        },
+        {
+          "name": "content",
+          "value": "{\"male\":true,\"id\":\"1\",\"name_tid\":\"72057594213098023\",\"code\":\"en\",\"production\":\"t\",\"content\":\"t\",\"short_code\":\"en\",\"rtl\":\"f\",\"locale\":\"en_us\",\"gender\":\"t\",\"order_index\":\"2\",\"name\":\"English\",\"names_ml\":[{\"id\":\"72057594213098941\",\"ct_language_id\":\"1\",\"value\":\"English\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785415508444316\",\"ct_language_id\":\"1801439851240451860\",\"value\":\"Inglés\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"72057594213098947\",\"ct_language_id\":\"3\",\"value\":\"Англiйська\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"1801439851240443223\",\"ct_language_id\":\"4\",\"value\":\"אנגלית\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785425880074571\",\"ct_language_id\":\"1801439851240446753\",\"value\":\"Inglês\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"}]}"
+        },
+        {
+          "name": "inactivityTick",
+          "value": "1728567164678"
+        },
+        {
+          "name": "intercom.intercom-state",
+          "value": "{\"app\":{\"openConfig\":{\"layout\":\"default\",\"openTo\":\"messages\",\"spaces\":[{\"type\":\"messages\",\"label\":\"Messages\",\"navigationLabel\":\"Messages\",\"badge\":null}],\"userHasReceivedChecklists\":false,\"userHasLiveNewsfeed\":false,\"userHasTickets\":false},\"selfServeSuggestionsMatch\":false,\"name\":\"Adam Milo [TEST]\",\"features\":{\"anonymousInboundMessages\":true,\"googleAnalytics\":false,\"hubspotInstalled\":false,\"inboundMessages\":true,\"launcherSettingsEndpoint\":true,\"marketoEnrichmentInstalled\":false,\"googleAnalytics4Integration\":true},\"inboundConversationsDisabled\":false,\"isDeveloperWorkspace\":false,\"customGoogleAnalyticsTrackerId\":null},\"launcher\":{\"isLauncherEnabled\":true},\"launcherDiscoveryMode\":{\"hasDiscoveredLauncher\":true},\"launcherSettings\":{\"alignment\":\"right\",\"color\":\"#333333\",\"hasRequiredFeatures\":true,\"horizontalPadding\":20,\"instantBootEnabled\":false,\"launcherLogoUrl\":null,\"secondaryColor\":\"#333333\",\"showLauncher\":true,\"updatedAt\":1728564152,\"verticalPadding\":20,\"isLoading\":false},\"user\":{\"role\":\"user\",\"locale\":\"en\",\"hasConversations\":false},\"message\":{},\"conversations\":{\"byId\":{}},\"openOnBoot\":{\"type\":null,\"metadata\":{},\"lastOpenAtTimestamp\":1728908640051},\"operator\":{\"lastComposerEvent\":0},\"router\":{\"isInitialized\":false,\"navigationQueue\":[]}}"
+        },
+        {
+          "name": "locale",
+          "value": "{\"male\":true,\"id\":\"1\",\"name_tid\":\"72057594213098023\",\"code\":\"en\",\"production\":\"t\",\"content\":\"t\",\"short_code\":\"en\",\"rtl\":\"f\",\"locale\":\"en_us\",\"gender\":\"t\",\"order_index\":\"2\",\"name\":\"English\",\"names_ml\":[{\"id\":\"72057594213098941\",\"ct_language_id\":\"1\",\"value\":\"English\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785415508444316\",\"ct_language_id\":\"1801439851240451860\",\"value\":\"Inglés\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"72057594213098947\",\"ct_language_id\":\"3\",\"value\":\"Англiйська\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"1801439851240443223\",\"ct_language_id\":\"4\",\"value\":\"אנגלית\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785425880074571\",\"ct_language_id\":\"1801439851240446753\",\"value\":\"Inglês\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"}]}"
+        },
+        {
+          "name": "notificationsState",
+          "value": ""
+        },
+        {
+          "name": "playerSessionKey",
+          "value": "56359194"
+        }
+      ]
+    },
+    {
+      "origin": "https://34.165.119.202",
+      "localStorage": [
+        {
+          "name": "locale",
+          "value": "{\"male\":true,\"id\":\"1\",\"name_tid\":\"72057594213098023\",\"code\":\"en\",\"production\":\"t\",\"content\":\"t\",\"short_code\":\"en\",\"rtl\":\"f\",\"locale\":\"en_us\",\"gender\":\"t\",\"order_index\":\"2\",\"name\":\"English\",\"names_ml\":[{\"id\":\"72057594213098941\",\"ct_language_id\":\"1\",\"value\":\"English\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785415508444316\",\"ct_language_id\":\"1801439851240451860\",\"value\":\"Inglés\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"72057594213098947\",\"ct_language_id\":\"3\",\"value\":\"Англiйська\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"1801439851240443223\",\"ct_language_id\":\"4\",\"value\":\"אנגלית\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785425880074571\",\"ct_language_id\":\"1801439851240446753\",\"value\":\"Inglês\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"}]}"
+        },
+        {
+          "name": "player",
+          "value": "{\"male\":true,\"id\":\"1\",\"name_tid\":\"72057594213098023\",\"code\":\"en\",\"production\":\"t\",\"content\":\"t\",\"short_code\":\"en\",\"rtl\":\"f\",\"locale\":\"en_us\",\"gender\":\"t\",\"order_index\":\"2\",\"name\":\"English\",\"names_ml\":[{\"id\":\"72057594213098941\",\"ct_language_id\":\"1\",\"value\":\"English\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785415508444316\",\"ct_language_id\":\"1801439851240451860\",\"value\":\"Inglés\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"72057594213098947\",\"ct_language_id\":\"3\",\"value\":\"Англiйська\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"1801439851240443223\",\"ct_language_id\":\"4\",\"value\":\"אנגלית\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785425880074571\",\"ct_language_id\":\"1801439851240446753\",\"value\":\"Inglês\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"}]}"
+        },
+        {
+          "name": "content",
+          "value": "{\"male\":true,\"id\":\"1\",\"name_tid\":\"72057594213098023\",\"code\":\"en\",\"production\":\"t\",\"content\":\"t\",\"short_code\":\"en\",\"rtl\":\"f\",\"locale\":\"en_us\",\"gender\":\"t\",\"order_index\":\"2\",\"name\":\"English\",\"names_ml\":[{\"id\":\"72057594213098941\",\"ct_language_id\":\"1\",\"value\":\"English\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785415508444316\",\"ct_language_id\":\"1801439851240451860\",\"value\":\"Inglés\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"72057594213098947\",\"ct_language_id\":\"3\",\"value\":\"Англiйська\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"1801439851240443223\",\"ct_language_id\":\"4\",\"value\":\"אנגלית\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785425880074571\",\"ct_language_id\":\"1801439851240446753\",\"value\":\"Inglês\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"}]}"
+        }
+      ]
+    },
     {
       "origin": "https://outlook.office.com",
       "localStorage": [
@@ -554,27 +576,6 @@
         {
           "name": "olk-UsersNormalizedTheme",
           "value": "base"
-        }
-      ]
-    },
-    {
-      "origin": "https://34.165.52.158",
-      "localStorage": [
-        {
-          "name": "XSRF_TOKEN",
-          "value": "1f2c7a9bfff261bd17274e97345e0690"
-        },
-        {
-          "name": "player",
-          "value": "{\"male\":true,\"id\":\"1\",\"name_tid\":\"72057594213098023\",\"code\":\"en\",\"production\":\"t\",\"content\":\"t\",\"short_code\":\"en\",\"rtl\":\"f\",\"locale\":\"en_us\",\"gender\":\"t\",\"order_index\":\"2\",\"name\":\"English\",\"names_ml\":[{\"id\":\"72057594213098941\",\"ct_language_id\":\"1\",\"value\":\"English\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785415508444316\",\"ct_language_id\":\"1801439851240451860\",\"value\":\"Inglés\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"72057594213098947\",\"ct_language_id\":\"3\",\"value\":\"Англiйська\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"1801439851240443223\",\"ct_language_id\":\"4\",\"value\":\"אנגלית\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785425880074571\",\"ct_language_id\":\"1801439851240446753\",\"value\":\"Inglês\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"}]}"
-        },
-        {
-          "name": "content",
-          "value": "{\"male\":true,\"id\":\"1\",\"name_tid\":\"72057594213098023\",\"code\":\"en\",\"production\":\"t\",\"content\":\"t\",\"short_code\":\"en\",\"rtl\":\"f\",\"locale\":\"en_us\",\"gender\":\"t\",\"order_index\":\"2\",\"name\":\"English\",\"names_ml\":[{\"id\":\"72057594213098941\",\"ct_language_id\":\"1\",\"value\":\"English\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785415508444316\",\"ct_language_id\":\"1801439851240451860\",\"value\":\"Inglés\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"72057594213098947\",\"ct_language_id\":\"3\",\"value\":\"Англiйська\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"1801439851240443223\",\"ct_language_id\":\"4\",\"value\":\"אנגלית\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785425880074571\",\"ct_language_id\":\"1801439851240446753\",\"value\":\"Inglês\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"}]}"
-        },
-        {
-          "name": "locale",
-          "value": "{\"male\":true,\"id\":\"1\",\"name_tid\":\"72057594213098023\",\"code\":\"en\",\"production\":\"t\",\"content\":\"t\",\"short_code\":\"en\",\"rtl\":\"f\",\"locale\":\"en_us\",\"gender\":\"t\",\"order_index\":\"2\",\"name\":\"English\",\"names_ml\":[{\"id\":\"72057594213098941\",\"ct_language_id\":\"1\",\"value\":\"English\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785415508444316\",\"ct_language_id\":\"1801439851240451860\",\"value\":\"Inglés\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"72057594213098947\",\"ct_language_id\":\"3\",\"value\":\"Англiйська\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"1801439851240443223\",\"ct_language_id\":\"4\",\"value\":\"אנגלית\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"},{\"id\":\"2233785425880074571\",\"ct_language_id\":\"1801439851240446753\",\"value\":\"Inglês\",\"ct_lang_name_id\":\"72057594213098023\",\"root_id\":\"1\",\"root_model\":\"langs\"}]}"
         }
       ]
     }

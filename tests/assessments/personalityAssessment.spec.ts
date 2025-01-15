@@ -122,6 +122,7 @@ test.describe.serial('Personality', () => {
 
     /* ------------------------------------------- Assert --------------------------------------------------------*/
     await expect(questionPage.$.successMessage).toBeVisible();
+    await questionPage.$.successMessage.waitFor({ state: 'hidden' })
 
 
     await questionPage.gotoQuestionMainPage();

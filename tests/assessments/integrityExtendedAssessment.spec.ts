@@ -11,7 +11,7 @@ let context;
 
 test.describe.serial('Integrity extended', () => {
   test.beforeAll(async ({ browser }) => {
-    browser = await chromium.launch({ slowMo: 15 });
+    browser = await chromium.launch({ slowMo: 40 });
     context = await browser.newContext();
     page = await context.newPage();
   });
@@ -116,11 +116,14 @@ test.describe.serial('Integrity extended', () => {
     await questionPage.gotoQuestionMainPage();
     await questionTabPage.clickAddQuestion();
 
+
+    await questionPage.$.successMessage.waitFor({ state: 'hidden' })
     /* ----------------------------------------- Question type ---------------------------------------------------*/
     await questionPage.AddQuestionAndAnswersAndConnectScale('No answers', [], integrityExtendedScales, 2, undefined);
 
     /* ------------------------------------------- Assert --------------------------------------------------------*/
     await expect(questionPage.$.successMessage).toBeVisible();
+    await questionPage.$.successMessage.waitFor({ state: 'hidden' })
 
 
     await questionPage.gotoQuestionMainPage();

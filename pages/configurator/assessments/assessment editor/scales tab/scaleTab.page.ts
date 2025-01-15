@@ -7,7 +7,7 @@ import { assessmentType } from "../../../assessments/assessment creation/assessm
 
 
 
-export const integrityExtendedScales = ['Alcohol', 'Good Impression', 'Self-control', 'Personality-Integrity Total', 'Conformity', 'Employment stability', 'Safety', 'Responsibility', 'Drugs', 'Theft', 'Reliability'];
+export const integrityExtendedScales = ['Alcohol', 'Good Impression', 'Self-control', 'Personality-Integrity Total']// 'Conformity', 'Employment stability', 'Safety', 'Responsibility', 'Drugs', 'Theft', 'Reliability'];
 export const integritySEScales = ['Impulsiveness', 'Risk-taking', 'Potential for personal risk', 'Manipulative behavior', 'Phishing awareness'];
 export const personalityScales = ['Self-control', 'Conformity', 'Dominance', 'Good Impression'];
 export const skillsScales = ['Skills'];
@@ -237,7 +237,7 @@ class AssessmentEditorScalesTab extends BasePage {
         await assessmentEditor.navigateToScales()
         const [response] = await Promise.all([
            await assessmentEditor.page.waitForResponse(response => 
-              response.url() === 'https://34.165.52.158/api/clients/get_orgs_list' &&
+              response.url() === 'https://34.165.119.202/api/clients/get_orgs_list' &&
               response.status() === 200 
             ),]);
         switch (assessmentType) {

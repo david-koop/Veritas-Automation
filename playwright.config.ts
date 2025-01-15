@@ -6,7 +6,7 @@ configDotenv();
 
 
 export default defineConfig({
-  testDir: './tests',
+  testDir: './',
   fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
@@ -22,7 +22,7 @@ export default defineConfig({
 
   use: {
     headless: false,
-    // baseURL: 'https://10.0.2.102',
+    // baseURL: 'https://34.165.119.202',
     baseURL: 'https://34.165.52.158',
     // baseURL: 'https://ama.am-test.com',
     // baseURL: 'https://amproxy.ravtech.co.il',
@@ -42,7 +42,7 @@ export default defineConfig({
     {
       name: 'chromium',
       use: {
-        // ...devices['Desktop Chrome'],
+        ...devices['Desktop Chrome'],
         deviceScaleFactor:undefined,
         viewport: null,
         launchOptions:{
